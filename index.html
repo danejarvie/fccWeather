@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+
+<!-- FontAwesome CDN -->
+<script src="https://use.fontawesome.com/e8030708c3.js"></script>
+
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<title>Dane Jarvie | Free Code Camp - Random Quote Machine</title>
+</head>
+
+<body>
+
+<div class="weather-machine">
+	<h1>Your weather</h1>
+	
+	<div class="weather-box">
+		<div class="field"><span id="weather-locale"></span>, <span id="weather-country"></span></div>
+		<div><span class="field"><span id="weather-temp"></span><sup>o</sup> <span class="temp-unit" id="temp-unit">C<span class="mini">/f</span></span></span></div>
+		<div class="field" id="weather-desc"></div>
+		<div id="weather-icon"></div>
+		
+	</div>
+	<p>Latitude: <span id="startLat"></span> &nbsp; Longitude: <span id="startLon"></span></p>
+	<!--<p>&copy; 2017 Dane Jarvie</p>-->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="dynamics.js"></script>
+
+</body>
+</html>
