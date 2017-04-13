@@ -17,7 +17,7 @@ $(document).ready(function(){
 		}
 		
 		$.ajax({
-			url: "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat="+cur_lat+"&lon="+cur_lon+"&units=metric&APPID=3d7c393f09816ab0aeebaa686e7d9fe7",
+			url: "http://api.openweathermap.org/data/2.5/weather?lat="+cur_lat+"&lon="+cur_lon+"&units=metric&APPID=3d7c393f09816ab0aeebaa686e7d9fe7",
 			type: "GET",
 			dataType: "json",
 			success: function(data) {
